@@ -23,8 +23,9 @@ import Lista from './Componentes/Lista';
 import Props from './Componentes/Props';
 import State from './Componentes/State';
 import LifeCycle from './Componentes/LifeCycle';
+import Form from './Formularios/Form';
 
 render(
-  <LifeCycle />,
+  <Form />,
   document.getElementById('root')
 );
