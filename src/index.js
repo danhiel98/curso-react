@@ -24,8 +24,9 @@ import Props from './Componentes/Props';
 import State from './Componentes/State';
 import LifeCycle from './Componentes/LifeCycle';
 import Form from './Formularios/Form';
+import CodeSplitting from './CodeSplitting/CodeSplitting';
 
 render(
-  <Form />,
+  <CodeSplitting />,
   document.getElementById('root')
 );
