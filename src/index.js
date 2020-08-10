@@ -25,8 +25,10 @@ import State from './Componentes/State';
 import LifeCycle from './Componentes/LifeCycle';
 import Form from './Formularios/Form';
 import CodeSplitting from './CodeSplitting/CodeSplitting';
+import ReactContext from './ReactContext/Main';
+import ReactContextForm from './ReactContext/Form';
 
 render(
-  <CodeSplitting />,
+  <ReactContextForm />,
   document.getElementById('root')
 );
